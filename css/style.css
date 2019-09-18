@@ -90,15 +90,15 @@ main {
   margin: 0;
   width: 100%;
   background: papayawhip;
-  height: 2410px;
+  height: auto;
 }
 
 [id='latest'],
 [id='apple-event'],
 [id='funding'],
 [id='main-articles'],
-[id='latest-deals'] {
-  width: 75%;
+[id='deals'] {
+  width: 85%;
   margin: 0 auto;
   background: #eee;
 }
@@ -113,14 +113,6 @@ main {
   margin-top: 50px;
 }
 
-#main-articles{
-  height: 1500px;
-}
-
-#latest-deals{
-  height: 400px;
-}
-
 a {
   text-decoration: none;
   color: black;
@@ -132,6 +124,7 @@ footer {
   height: 250px;
   margin: 0;
   background-color: teal;
+  bottom: 0;
 }
 
 .footer-up {
@@ -261,9 +254,15 @@ section h1 {
   margin: 10px;
 }
 
+#main-articles{
+  height: 1800px;
+  background-color: lightseagreen;
+  padding: 0;
+}
+
 .trends-wrapper{
   width: 100%;
-  height: 90%;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
@@ -276,4 +275,50 @@ section h1 {
   display: flex;
   flex-direction: column;
   background-color: aquamarine;
+}
+
+
+.trends-fig {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  height: 50%;
+  top: 0;
+  background-color: teal;
+}
+
+
+.trends-latest {
+  position: relative;
+  width: 100%;
+  height: 15%;
+  background-color: peru;
+  display: flex;
+}
+
+.trends-latest-title {
+  width: 80%;
+  background-color: palegreen;
+}
+
+.trends-latest-img {
+  width: 20%;
+  background-color: papayawhip;
+}
+
+.trends-list {
+  width: 100%;
+  height: auto;
+}
+
+#deals{
+  height: 400px;
+}
+
+.deals-wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
 }
