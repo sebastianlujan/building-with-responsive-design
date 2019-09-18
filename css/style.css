@@ -114,7 +114,7 @@ main {
 }
 
 #main-articles{
-  height: 1000px;
+  height: 1500px;
 }
 
 #latest-deals{
@@ -266,6 +266,7 @@ section h1 {
   height: 90%;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 
 [class*='trends-col'] {
