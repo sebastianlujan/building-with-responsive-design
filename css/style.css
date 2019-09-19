@@ -1,18 +1,3 @@
-/*first breakpoint: 1024px
-second breakpoint: 760px
-third breakpoint:3..px */
-@media only screen and (max-width: 1024px) {
-  [class*="latest-col"] {
-    width: 32% !important;
-    margin: 0 0.5%;
-  }
-  [class*="apple-col"] {
-    width: 32% !important;
-    margin: 0 0.5%;
-  }
-}
-
-
 body {
   margin: 0;
   padding: 0;
@@ -414,3 +399,45 @@ footer {
 .heart {
   color: #ff2244 !important;
 }
+
+/*first breakpoint: 1024px
+second breakpoint: 760px
+third breakpoint:3..px */
+@media only screen and (max-width: 1024px) {
+  
+  [id='latest'],
+  [id='apple-event'],
+  [id='funding'],
+  [id='main-articles'],
+  [id='deals'] {
+    width: 95%;
+    margin: 0 auto;
+    background: palegreen;
+  } 
+  
+  [class*="latest-col"] {
+    width: 32%;
+    margin: 0 0.5%;
+  }
+  
+  [class*="apple-col"] {
+    width: 32%;
+    margin: 0 0.5%;
+  }
+
+  [class*="funding-col"] {
+    width: 32%;
+    margin: 0 0.5%;
+  }
+
+  .funding-col-4-wrapper {
+    display: none;
+  }
+
+  [class*="trends-col"]{
+    width: 47% !important;
+    margin: 0 auto;
+  }
+
+}
+
