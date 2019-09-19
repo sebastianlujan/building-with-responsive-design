@@ -3,29 +3,49 @@ body {
   padding: 0;
 }
 
+header {
+  display:flex;
+  width: 100%;
+  height: 460px;
+  background-color: violet;
+  margin:0;
+}
+
 nav {
   width: 100%;
   height: 80px;
   background-color: palegreen;
+  display: float;
 }
 
-header {
-  display:flex;
-  width: 100%;
-  height: 450px;
-  background-color: violet;
-  margin:0;
-}
 .nav-bar-1 {
   width: 100%;
   margin: 0;
   height: 35%;
   background-color: black;
   display: inline-block;
+
+}
+
+.nav-bar-2 {
+  width: 100%;
+  margin: 0;
+  height: 65%;
+  background-color: #eee;
+}
+
+.tnw-logo-container {
+  float: left;
+  height: 80px;
+  width: 10%;
+  margin: 0;
+  background-color: lightseagreen;
+  display: none;
 }
 
 .nav-bar-1 a {
   margin: 2px 10px;
+  color: white;
 }
 
 .float-left {
@@ -38,12 +58,7 @@ header {
   width: auto;
 }
 
-.nav-bar-2 {
-  width: 100%;
-  margin: 0;
-  height: 65%;
-  background-color: #eee;
-}
+
 
 .yellow-thingy {
   width: 100%;
@@ -51,6 +66,7 @@ header {
   margin-top: 0;
   margin-bottom: 3px;
   background-color: #f4d03f;
+  clear: both;
 }
 
 .col-1 {
@@ -282,9 +298,9 @@ section h1 {
 }
 
 #deals {
-  height: 600px;
+  height: 450px;
   margin-top:50px;
-  margin-bottom: 100px;
+  margin-bottom: 75px;
 }
 
 .deals-wrapper {
@@ -400,11 +416,15 @@ footer {
   color: #ff2244 !important;
 }
 
+.deals-col-9 {
+  display: none;
+}
+
 /*first breakpoint: 1024px
 second breakpoint: 760px
 third breakpoint:3..px */
 @media only screen and (max-width: 1024px) {
-  
+
   [id='latest'],
   [id='apple-event'],
   [id='funding'],
@@ -413,13 +433,17 @@ third breakpoint:3..px */
     width: 95%;
     margin: 0 auto;
     background: palegreen;
-  } 
-  
+  }
+
+  #main-articles{
+    height: 3000px;
+  }
+
   [class*="latest-col"] {
     width: 32%;
     margin: 0 0.5%;
   }
-  
+
   [class*="apple-col"] {
     width: 32%;
     margin: 0 0.5%;
@@ -437,7 +461,38 @@ third breakpoint:3..px */
   [class*="trends-col"]{
     width: 47% !important;
     margin: 0 auto;
+    height: 24%;
+  }
+
+  .trends-col-9{
+    display: none;
+  }
+
+  [class*="deals-col"]{
+    width: 32%;
+    margin: 0 auto;
+  }
+
+  .deals-col-9{
+    display: block;
+  }
+
+  #deals {
+    height: 720px;
+  }
+
+  header {
+    height: 360px;
+  }
+
+  [class*='nav-bar'] {
+    margin-left: 10%;
+    display: block;
+    width: 90%;
+  }
+
+  .tnw-logo-container {
+    display: block;
   }
 
 }
-
