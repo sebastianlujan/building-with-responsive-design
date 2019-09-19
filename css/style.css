@@ -3,7 +3,7 @@ second breakpoint: 760px
 third breakpoint:3..px */
 @media only screen and (max-width: 1024px) {
   [class*="latest-col"] {
-    width: 31% !important;
+    width: 32% !important;
     margin: 0 0.5%;
   }
   [class*="apple-col"] {
@@ -145,8 +145,8 @@ a {
 }
 
 [class*='latest-col'] {
-  width: 23%;
-  margin: 0 1%;
+  width: 24%;
+  margin: 0 0.5%;
   height: 50%;
 }
 
