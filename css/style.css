@@ -1,6 +1,18 @@
 /*first breakpoint: 1024px
 second breakpoint: 760px
 third breakpoint:3..px */
+@media only screen and (max-width: 1024px) {
+  [class*="latest-col"] {
+    width: 31% !important;
+    margin: 0 0.5%;
+  }
+  [class*="apple-col"] {
+    width: 32% !important;
+    margin: 0 0.5%;
+  }
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -98,13 +110,13 @@ main {
 [id='funding'],
 [id='main-articles'],
 [id='deals'] {
-  width: 70%;
+  width: 85%;
   margin: 0 auto;
   background: #eee;
 }
 
 #apple-event {
-  height: 250px;
+  height: auto;
   margin-top: 70px;
 }
 
@@ -128,7 +140,8 @@ a {
 }
 
 #latest {
-  height: 600px;
+  height: auto;
+  min-width: 800px;
 }
 
 [class*='latest-col'] {
@@ -140,14 +153,7 @@ a {
 
 .latest-wrapper {
   width: 100%;
-  height: 90%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.apple-wrapper {
-  width: 100%;
-  height: 90%;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -155,8 +161,8 @@ a {
 .latest-img {
   position: relative;
   width: 100%;
-  margin: 0 0 9px 0;
-  height: 62.23%;
+  margin: 20px 0 10px 0;
+  height: auto;
   top: 0;
 }
 
@@ -179,7 +185,7 @@ section h1 {
 
 .apple-wrapper {
   width: 100%;
-  height: 90%;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -408,4 +414,3 @@ footer {
 .heart {
   color: #ff2244 !important;
 }
-
