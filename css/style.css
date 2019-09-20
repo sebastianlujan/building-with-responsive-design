@@ -494,5 +494,26 @@ third breakpoint:3..px */
   .tnw-logo-container {
     display: block;
   }
+  header{
+    display: inline-flex;
+  }
 
+  .col-1 {
+    background-color: blue;
+    width: 100%;
+    height: 33%;
+  }
+  .col-2 {
+    background-color: tomato;
+    width: 100%;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 760px ) {
+  #latest{
+    background-color: red;
+  }
 }
