@@ -4,11 +4,38 @@ body {
 }
 
 header {
-  display:flex;
   width: 100%;
   height: 460px;
-  background-color: violet;
+  background-color: papayawhip;
   margin:0;
+}
+
+.header-wrapper {
+  height: 100%;
+  width: 100%;
+  display: float;
+  margin: 0;
+}
+
+.header-container-1-1 {
+  width: 65%;
+  height: 100%;
+  float: left;
+  background-color: lightseagreen;
+}
+
+.header-container-1-2 {
+  height: 50%;
+  width: 35%;
+  margin-left: 65%;
+  background-color: lightgreen;
+}
+
+.header-container-2-2 {
+  height: 50%;
+  width: 35%;
+  margin-left: 65%;
+  background-color: violet;
 }
 
 nav {
@@ -69,36 +96,6 @@ nav {
   clear: both;
 }
 
-.col-1 {
-  width: 66%;
-  height: 100%;
-  margin: 3px 5px;
-  background-color: teal;
-}
-
-.col-2 {
-  width: 34%;
-  height: 100%;
-  background-color: peru;
-  display: flex;
-  flex-direction: column;
-  margin: 3px 5px;
-}
-
-.row-1 {
-  width: 100%;
-  height: 50%;
-  margin-bottom: 5px;
-  background-color: green;
-}
-
-.row-2 {
-  width: 100%;
-  height: 50%;
-  margin-top: 5px;
-  background-color: wheat;
-}
-
 main {
   margin: 0;
   width: 100%;
@@ -142,7 +139,7 @@ a {
 
 #latest {
   height: auto;
-  min-width: 800px;
+  margin-top: 70px;
 }
 
 [class*='latest-col'] {
@@ -494,26 +491,89 @@ third breakpoint:3..px */
   .tnw-logo-container {
     display: block;
   }
-  header{
-    display: inline-flex;
-  }
-
-  .col-1 {
-    background-color: blue;
-    width: 100%;
-    height: 33%;
-  }
-  .col-2 {
-    background-color: tomato;
-    width: 100%;
-  }
-
-
-
 }
 
-@media only screen and (max-width: 760px ) {
-  #latest{
-    background-color: red;
+@media only screen and (max-width: 739px ) {
+  header {
+    height: 800px;
+    margin:0;
   }
+
+  .header-wrapper {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin: 0;
+  }
+
+  [class*="header-container"] {
+    width: 100%;
+    height: 32%;
+    float: left;
+    margin-left: 0;
+    margin-top: 2%;
+  }
+
+  [class*='latest-col'],
+  [class*='apple-col'] {
+    width: 100%;
+    margin: 0;
+    height: 100px;
+    background-color: teal;
+    margin-top: 10px;
+  }
+
+  .latest-img {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    left: 0;
+    float: left;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+  #funding {
+    height: 100%;
+  }
+
+  .funding-wrapper {
+    flex-wrap: wrap;
+  }
+
+  [class*='funding-col'] {
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: teal;
+  }
+
+
+  .funding-item-1 {
+    height: 38px;
+    background-color: #f42;
+  }
+  .funding-item-2 {
+    height: 58px;
+    background-color: papayawhip;
+  }
+  .funding-item-3 {
+    height: auto;
+    background-color: #ccc;
+  }
+  .funding-item-4 {
+    height: auto;
+    background-color: #ddd;
+  }
+
+  .funding-img {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+  }
+
+
 }
