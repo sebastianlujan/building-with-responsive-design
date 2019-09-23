@@ -156,7 +156,7 @@ a {
   flex-wrap: wrap;
 }
 
-.latest-img {
+.pic {
   position: relative;
   width: 100%;
   margin: 20px 0 10px 0;
@@ -284,7 +284,7 @@ section h1 {
   background-color: palegreen;
 }
 
-.trends-latest-img {
+.trends-pic {
   width: 20%;
   background-color: papayawhip;
 }
@@ -295,7 +295,7 @@ section h1 {
 }
 
 #deals {
-  height: 450px;
+  height: 800px;
   margin-top:50px;
   margin-bottom: 75px;
 }
@@ -361,7 +361,8 @@ footer {
 }
 
 .footer-down div span{
-  color: white;
+    color: #aaa;
+    font-family: "Arial";
 }
 
 
@@ -404,9 +405,11 @@ footer {
   display: inline-flex;
   margin: 0 5px;
 }
-
-.logo-tnw {
+.logo-tnw{
   width: 50px;
+}
+.logo-stack {
+  width: 100px;
 }
 
 .heart {
@@ -515,7 +518,8 @@ third breakpoint:3..px */
   }
 
   [class*='latest-col'],
-  [class*='apple-col'] {
+  [class*='apple-col'],
+  [class*='deals-col'] {
     width: 100%;
     margin: 0;
     height: 100px;
@@ -523,7 +527,7 @@ third breakpoint:3..px */
     margin-top: 10px;
   }
 
-  .latest-img {
+  .pic  {
     width: 100px;
     height: 100px;
     margin: 0;
@@ -575,5 +579,25 @@ third breakpoint:3..px */
     margin: 10px;
   }
 
+  .deals-col-9{
+    display: none;
+  }
 
+  #deals {
+    height: 865px;
+  }
+
+  .footer-up {
+    height: 88%;
+  }
+  .footer-down { 
+    height: 62.5%;
+  }
+
+  .footer-down div {
+    width: 40%;
+    text-align: center;
+    line-height: 1.7;
+  }
+  
 }
