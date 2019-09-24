@@ -614,7 +614,7 @@ third breakpoint:3..px */
     display: inline-block;
     margin: 6px 0 6px 6px;
     padding-bottom: 10px; 
-    border-bottom: solid 2px #eee; 
+    border-bottom: solid 1.5px #eee; 
     color: #666;
   }
 
@@ -627,3 +627,20 @@ third breakpoint:3..px */
     color: #f42;
     margin-right: 10px;
   }
+
+  .trends-latest-title * {
+    color: #f42;
+    font-size: 20px;
+  }
+
+  [class*='deals-col'] a h3 {
+    color: black;
+    font-size: 100%;
+  }
+
+  [class*='deals-col'] a h3 {
+    color: black;
+    font-size: 100%;
+    margin-bottom: 12px;
+  }
+
