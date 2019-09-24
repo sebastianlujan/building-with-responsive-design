@@ -66,7 +66,7 @@ nav {
   height: 80px;
   width: 10%;
   margin: 0;
-  background-color: lightseagreen;
+  background: linear-gradient(168deg, rgba(204,0,153,1) 0%, rgba(240,48,69,1) 100%);
   display: none;
 }
 
@@ -236,7 +236,6 @@ section h1 {
 
 #main-articles {
   height: 1800px;
-  background-color: lightseagreen;
   padding: 0;
 }
 
@@ -254,7 +253,6 @@ section h1 {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  background-color: aquamarine;
 }
 
 
@@ -264,7 +262,6 @@ section h1 {
   margin: 0;
   height: 50%;
   top: 0;
-  background-color: teal;
 }
 
 
@@ -272,13 +269,11 @@ section h1 {
   position: relative;
   width: 100%;
   height: 20%;
-  background-color: peru;
   display: flex;
 }
 
 .trends-latest-title {
   width: 80%;
-  background-color: palegreen;
 }
 
 .trends-pic {
@@ -333,7 +328,6 @@ footer {
   display: block;
   height: 250px;
   margin: 0;
-  background-color: teal;
   bottom: 0;
 }
 
@@ -425,7 +419,6 @@ third breakpoint:3..px */
   [id='deals'] {
     width: 95%;
     margin: 0 auto;
-    background: palegreen;
   }
 
   #main-articles{
@@ -537,7 +530,6 @@ third breakpoint:3..px */
     width: 100%;
     margin: 0;
     height: 100px;
-    background-color: teal;
     margin-top: 10px;
   }
 
@@ -565,7 +557,6 @@ third breakpoint:3..px */
     margin-top: 10px;
     margin-left: 25px;
     margin-right: 25px;
-    background-color: teal;
   }
 
 
@@ -574,7 +565,7 @@ third breakpoint:3..px */
     background-color: #f42;
   }
   .funding-item-2 {
-z    height: 58px;
+    height: 58px;
   }
 
   .funding-item-3 {
@@ -615,6 +606,24 @@ z    height: 58px;
   }
 }
 
-  .funding-title{
+  .funding-title {
     color: white;
+  }
+
+  .trends-list a{
+    display: inline-block;
+    margin: 6px 0 6px 6px;
+    padding-bottom: 10px; 
+    border-bottom: solid 2px #eee; 
+    color: #666;
+  }
+
+  .trends-list a:hover {
+    color: black;
+  }
+
+  .trends-list a::before {
+    content: "•";
+    color: #f42;
+    margin-right: 10px;
   }
