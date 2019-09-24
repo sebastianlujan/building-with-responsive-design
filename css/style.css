@@ -61,6 +61,7 @@ nav {
   background-color: #eee;
 }
 
+
 .tnw-logo-container {
   float: left;
   height: 80px;
@@ -295,7 +296,7 @@ section h1 {
 }
 
 #deals {
-  height: 800px;
+  height: 600px;
   margin-top:50px;
   margin-bottom: 75px;
 }
@@ -497,6 +498,27 @@ third breakpoint:3..px */
 }
 
 @media only screen and (max-width: 739px ) {
+
+  .nav-bar-1 {
+    display: none;
+  }
+
+  .nav-bar-2 {
+    width: 85%;
+    height: 52px;
+    margin-left: 15%;
+  }
+
+  .tnw-logo-container {
+    width: 15%;
+    height: 52px;
+  }
+
+  .nav-bar-2-item {
+    display: none;
+
+  }
+
   header {
     height: 800px;
     margin:0;
@@ -590,7 +612,7 @@ third breakpoint:3..px */
   .footer-up {
     height: 88%;
   }
-  .footer-down { 
+  .footer-down {
     height: 62.5%;
   }
 
@@ -599,5 +621,5 @@ third breakpoint:3..px */
     text-align: center;
     line-height: 1.7;
   }
-  
+
 }
