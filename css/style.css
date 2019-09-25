@@ -634,7 +634,7 @@ third breakpoint:3..px */
 
   .trends-latest-title * {
     color: #f42;
-    font-size: 20px;
+    font-size: 1em;
   }
 
   [class*='deals-col'] a h3 {
