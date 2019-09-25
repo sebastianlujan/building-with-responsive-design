@@ -235,7 +235,7 @@ section h1 {
 }
 
 #main-articles {
-  height: 1800px;
+  height: 2100px;
   padding: 0;
 }
 
@@ -255,7 +255,6 @@ section h1 {
   flex-direction: column;
 }
 
-
 .trends-fig {
   position: relative;
   width: 100%;
@@ -268,9 +267,7 @@ section h1 {
   width: 100%;
 }
 
-
 .trends-latest {
-  position: relative;
   width: 100%;
   height: 20%;
   display: flex;
@@ -411,6 +408,39 @@ footer {
   display: none;
 }
 
+.funding-title {
+  color: white;
+}
+
+.trends-list a {
+  display: inline-block;
+  margin: 6px 0 6px 6px;
+  padding-bottom: 10px;
+  border-bottom: solid 1.5px #eee;
+  color: #666;
+}
+
+.trends-list a:hover {
+  color: black;
+}
+
+.trends-list a::before {
+  content: "•";
+  color: #f42;
+  margin-right: 10px;
+}
+
+.trends-latest-title * {
+  color: #f42;
+  font-size: 1em;
+}
+
+[class*='deals-col'] a h3 {
+  color: black;
+  font-size: 100%;
+  margin-bottom: 12px;
+}
+
 /*first breakpoint: 1024px
 second breakpoint: 760px
 third breakpoint:3..px */
@@ -449,7 +479,7 @@ third breakpoint:3..px */
   }
 
   [class*="trends-col"]{
-    width: 47% !important;
+    width: 47%;
     margin: 0 auto;
     height: 24%;
   }
@@ -608,42 +638,14 @@ third breakpoint:3..px */
     text-align: center;
     line-height: 1.7;
   }
+
+  [class*="trends-col"] {
+    width: 100%;
+    height: auto;
+  }
+
+  #main-articles {
+    height: 5300px;
+  }
+
 }
-
-  .funding-title {
-    color: white;
-  }
-
-  .trends-list a{
-    display: inline-block;
-    margin: 6px 0 6px 6px;
-    padding-bottom: 10px;
-    border-bottom: solid 1.5px #eee;
-    color: #666;
-  }
-
-  .trends-list a:hover {
-    color: black;
-  }
-
-  .trends-list a::before {
-    content: "•";
-    color: #f42;
-    margin-right: 10px;
-  }
-
-  .trends-latest-title * {
-    color: #f42;
-    font-size: 1em;
-  }
-
-  [class*='deals-col'] a h3 {
-    color: black;
-    font-size: 100%;
-  }
-
-  [class*='deals-col'] a h3 {
-    color: black;
-    font-size: 100%;
-    margin-bottom: 12px;
-  }
