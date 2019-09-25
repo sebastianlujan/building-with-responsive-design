@@ -264,6 +264,10 @@ section h1 {
   top: 0;
 }
 
+.trends-img {
+  width: 100%;
+}
+
 
 .trends-latest {
   position: relative;
@@ -613,8 +617,8 @@ third breakpoint:3..px */
   .trends-list a{
     display: inline-block;
     margin: 6px 0 6px 6px;
-    padding-bottom: 10px; 
-    border-bottom: solid 1.5px #eee; 
+    padding-bottom: 10px;
+    border-bottom: solid 1.5px #eee;
     color: #666;
   }
 
@@ -643,4 +647,3 @@ third breakpoint:3..px */
     font-size: 100%;
     margin-bottom: 12px;
   }
-
