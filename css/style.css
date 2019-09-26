@@ -24,7 +24,6 @@ header {
 .header-wrapper {
   height: 100%;
   width: 100%;
-  display: float;
 }
 
 .header-container-1-1 {
@@ -47,13 +46,11 @@ header {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/09/maduro-petro-october-1st-cryptocurrency-national-oil-796x448.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: .5%;
   margin-bottom: .5%;
-  position: relative;
 }
 
 .header-container-2-2 {
-  height: 48%;
+  height: 49%;
   width: 34%;
   margin-left: 66%;
   background-color: violet;
@@ -61,7 +58,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: .5%;
-  margin-bottom: .5%;
 }
 
 .gradient-cover {
@@ -642,6 +638,53 @@ third breakpoint:3..px */
   .search-icon {
     top: -32px;
   }
+
+  .header-container-1-2 {
+    height: 48%;
+    width: 34%;
+    margin-left: 66%;
+    background-color: lightgreen;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/09/maduro-petro-october-1st-cryptocurrency-national-oil-796x448.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: .5%;
+  }
+
+  .header-container-2-2 {
+    height: 49%;
+    width: 34%;
+    margin-left: 66%;
+    background-color: violet;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/OnePlus7T-796x418.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: .5%;
+  }
+
+  .gradient-cover {
+    display:none;
+  }
+
+  .fix-cover {
+    position: relative;
+    height: 40%;
+    margin-top: .5%;
+  }
+
+  .header-title-1 {
+    margin-top: 160px;
+  }
+
+  .overlay-title {
+    font-size: 1em;
+    line-height: 20px;
+  }
+
+  .overlay-title-1 {
+    font-size: 2em;
+    line-height: 45px;
+  }
+
 }
 
 @media only screen and (max-width: 739px ) {
@@ -785,5 +828,14 @@ third breakpoint:3..px */
     right: 30px;
     top: 16px;
     color: gray;
+  }
+
+  [class*="overlay-title"] {
+    font-size: 1.5em;
+    line-height: 30px;
+  }
+
+  .header-title-1 {
+    margin-top: 125px;
   }
 }
