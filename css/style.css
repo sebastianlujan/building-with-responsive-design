@@ -24,7 +24,7 @@ header {
 
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Ubisoft-Concordia-796x417.jpg");
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
 }
 
 .header-container-1-2 {
@@ -50,7 +50,7 @@ header {
   background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png");
   opacity: .8;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   z-index : 99;
 }
 
@@ -475,6 +475,28 @@ footer {
   margin-bottom: 12px;
 }
 
+.search-icon {
+  position: relative;
+  top: 15px;
+  right: 10px;
+  border: none;
+}
+
+.menu-icon{
+  display: none;
+  top: 15px;
+  right: 10px;
+  border: none;
+}
+
+.menu-icon:hover {
+  color: black;
+}
+
+.search-icon:hover {
+  color: black;
+}
+
 /*first breakpoint: 1024px
 second breakpoint: 760px
 third breakpoint:3..px */
@@ -547,6 +569,10 @@ third breakpoint:3..px */
 
   .tnw-logo-container {
     display: block;
+  }
+
+  .search-icon {
+    top: -32px;
   }
 }
 
@@ -681,5 +707,18 @@ third breakpoint:3..px */
   #main-articles {
     height: 5300px;
   }
+
+  .menu-icon {
+    display: block;
+    color: gray;
+  }
+
+  .search-icon {
+    right: 30px;
+    top: 16px;
+    color: gray;
+  }
+
+
 
 }
