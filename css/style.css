@@ -207,7 +207,7 @@ section article h3 {
 
 section h1 {
   margin: 0;
-  font-size: 20px;
+  font-size: 40px;
   color: #f42;
 }
 
@@ -687,7 +687,7 @@ third breakpoint:3..px */
   }
 
   #deals {
-    height: 950px;
+    height: 865px;
   }
 
   .footer-up {
