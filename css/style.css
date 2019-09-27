@@ -18,6 +18,7 @@ header {
   height: 460px;
   margin: 0;
   margin-top: 110px;
+  padding-top: .5%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -48,6 +49,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: .5%;
+  margin-top: 10px;
 }
 
 .header-container-2-2 {
@@ -169,7 +171,7 @@ nav {
 }
 
 .nav-bar-1 a {
-  margin: 2px 5px;
+  margin: auto 5px;
   color: white;
 }
 
@@ -639,6 +641,7 @@ third breakpoint:3..px */
     margin-top:0;
     padding-top: 110px;
   }
+
   nav {
     margin-top: 0;
     height: 82px;
