@@ -829,21 +829,18 @@ third breakpoint:3..px */
 
   .funding-item-1 {
     height: 38px;
-    background-color: #f42;
   }
 
   .funding-item-2 {
     height: 58px;
   }
 
-
   .funding-item-3 {
     height: auto;
-    background-color: #ccc;
   }
+
   .funding-item-4 {
     height: auto;
-    background-color: #ddd;
   }
 
   .funding-img {
