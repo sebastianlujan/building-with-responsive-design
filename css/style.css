@@ -169,7 +169,7 @@ nav {
 }
 
 .nav-bar-1 a {
-  margin: 2px 10px;
+  margin: 2px 5px;
   color: white;
 }
 
@@ -636,6 +636,11 @@ third breakpoint:3..px */
     margin: 0 auto;
   }
 
+  nav {
+    margin-top: 0px;
+    height: 82px;
+  }
+
   #main-articles{
     height: 3000px;
   }
@@ -751,6 +756,11 @@ third breakpoint:3..px */
 
 @media only screen and (max-width: 739px ) {
 
+  nav {
+    margin-top: 0px;
+    height: 82px;
+  }
+
   .nav-bar-1 {
     display: none;
   }
@@ -773,7 +783,8 @@ third breakpoint:3..px */
 
   header {
     height: 800px;
-    margin:0;
+    margin: 0;
+    padding-top: 75px;
   }
 
   .header-wrapper {
@@ -837,6 +848,8 @@ third breakpoint:3..px */
 
   .funding-item-3 {
     height: auto;
+    padding: 1;
+
   }
 
   .funding-item-4 {
