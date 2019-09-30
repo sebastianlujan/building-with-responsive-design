@@ -146,7 +146,7 @@ nav {
 
 .nav-bar-1 {
   width: 100%;
-  margin: 0;
+  margin: 0px;
   height: 28px;
   background-color: black;
   display: inline-block;
@@ -157,32 +157,34 @@ nav {
   width: 100%;
   margin: 0;
   height: 52px;
-  background-color: #eee;
+  background-color: #fff;
 }
 
 
 .tnw-logo-container {
   float: left;
   height: 80px;
-  width: 10%;
+  width: 13%;
   margin: 0;
   background: linear-gradient(168deg, rgba(204,0,153,1) 0%, rgba(240,48,69,1) 100%);
   display: none;
 }
 
 .nav-bar-1 a {
-  margin: auto 5px;
+  margin: auto 10px;
   color: white;
 }
 
 .float-left {
   float: left;
   width: auto;
+  margin-left: 30px;
 }
 
 .float-right {
   float: right;
   width: auto;
+  margin-left: 16px;
 }
 
 
@@ -225,12 +227,14 @@ a {
   color: black;
 }
 
-.nav-bar-2 .float-left{
-  padding: 15px 10px;
+.nav-bar-2 .nav-bar-2-item{
+  margin-top: 15px;
+  margin-left: 10px;
 }
 
 .nav-bar-2 a {
-  color: #333;
+  color: #aaa;
+  font-family: 'Rajdhani', sans-serif;
   margin: 0 10px;
 }
 
@@ -498,8 +502,6 @@ footer {
     font-family: "Arial";
 }
 
-
-
 .social-icons-wrapper {
   width: 450px;
   height: 50px;
@@ -550,8 +552,13 @@ footer {
 }
 
 .logo-tnw{
+  width: 300px;
+}
+
+.little-logo-tnw{
   width: 50px;
 }
+
 .logo-stack {
   width: 100px;
 }
@@ -622,6 +629,23 @@ footer {
 .search-icon:hover {
   color: black;
 }
+
+.logo-fix{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 66px;
+
+}
+
+.logo-big { 
+  position: absolute;
+  top: 150px;
+  left: 30px;
+  width: 380px;
+  z-index: 9999;
+}
+
 
 /*first breakpoint: 1024px
 second breakpoint: 760px
@@ -701,6 +725,7 @@ third breakpoint:3..px */
 
   .tnw-logo-container {
     display: block;
+    width: 100px;
   }
 
   .search-icon {
@@ -753,6 +778,26 @@ third breakpoint:3..px */
     line-height: 45px;
   }
 
+
+  .logo-fix{
+    position: absolute;
+    top: 35px;
+    left: 16px;
+    width: 66px;
+  }
+
+  .logo-big {
+    display: none;
+  }
+
+  .nav-bar-2 .nav-bar-2-item{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    color: #eee;
+  }
 }
 
 @media only screen and (max-width: 739px ) {
@@ -773,7 +818,7 @@ third breakpoint:3..px */
   }
 
   .tnw-logo-container {
-    width: 15%;
+    width: 110px;
     height: 52px;
   }
 
@@ -912,4 +957,12 @@ third breakpoint:3..px */
   .header-title-1 {
     margin-top: 125px;
   }
+
+  .logo-fix{
+    position: absolute;
+    top: 16px;
+    left: 25px;
+    width: 66px;
+  }
+
 }
