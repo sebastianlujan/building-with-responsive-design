@@ -764,6 +764,29 @@ footer {
   z-index: 9999;
 }
 
+section h2 {
+  font-family: 'Ramabhadra', sans-serif;
+  font-size: 28px;
+}
+
+[class*="latest-col"] a h3 {
+  font-size: 14px;
+  line-height: 1.2em;
+  font-family: 'Ramabhadra', sans-serif;
+}
+
+[class*="latest-col"] div {
+  padding-top: 8px;
+}
+
+[class*="latest-col"] div a {
+  font-size: 14px;
+  color: #bbb;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.2em;
+}
+
 
 /*first breakpoint: 1024px
 second breakpoint: 760px
@@ -797,6 +820,10 @@ third breakpoint:3..px */
     width: 32%;
     margin: 0 0.5%;
   }
+
+  .latest-wrapper article div a {
+    color: #;
+  }  
 
   [class*="apple-col"] {
     width: 32%;
