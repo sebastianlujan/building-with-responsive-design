@@ -2,13 +2,14 @@ body {
   margin: 0;
 }
 
-.full-nav-toggle{
-  background: rgb(204,0,153);
-  background: linear-gradient(168deg, rgba(204,0,153,1) 0%, rgba(240,48,69,1) 100%);
+.full-nav-toggle {
+  background: rgb(204, 0, 153);
+  background: linear-gradient(168deg, rgba(204, 0, 153, 1) 0%, rgba(240, 48, 69, 1) 100%);
   width: 100%;
   height: 750px;
   position: fixed;
-  z-index: 999999999999999; /*this is a joke btw*/
+   /* this is a joke btw */
+  z-index: 999999999999999;
 }
 
 .full-nav-title {
@@ -78,19 +79,12 @@ body {
   color: white;
 }
 
-.full-nav-col-1 {
-  display: block;
-  padding-left: 20px;
-  padding-right: 20px;
-  box-sizing: border-box;
-}
-
 .full-nav-col-1 a {
   text-decoration: none;
   color: rgba(255, 255, 255, .5);
   font-size: 14px;
   display: inherit;
-  margin: 10px 0;
+  margin: 10px 0px;
 }
 
 .full-nav-col-2 {
@@ -105,7 +99,7 @@ body {
   color: rgba(255, 255, 255, .5);
   font-size: 14px;
   display: inherit;
-  margin: 10px 0;
+  margin: 10px 0px;
 }
 
 [class*="full-nav-col"] h2 {
