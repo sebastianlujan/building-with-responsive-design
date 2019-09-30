@@ -17,6 +17,7 @@ a {
   text-decoration: none;
 }
 
+
 header {
   width: 98%;
   height: 460px;
@@ -282,6 +283,18 @@ section h1 {
   color: #f42;
 }
 
+section h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #f42;
+}
+
+[class*="trends-col"] a h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #f42;
+}
+
 .latest-wrapper article div {
   display: inline-block;
   margin: 0;
@@ -398,6 +411,10 @@ section h1 {
   margin-top: 50px;
 }
 
+.trends-col-9 h2 {
+  display: none;
+}
+
 [class*='trends-col'] {
   width: 31%;
   height: 33%;
@@ -441,6 +458,10 @@ section h1 {
   height: auto;
   margin-top:50px;
   margin-bottom: 75px;
+}
+
+.deals-col-9 h2 {
+  display: none;
 }
 
 .deals-wrapper {
@@ -705,7 +726,7 @@ third breakpoint:3..px */
     height: 24%;
   }
 
-  .trends-col-9{
+  .trends-col-9 {
     display: none;
   }
 

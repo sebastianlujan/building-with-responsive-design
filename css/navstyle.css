@@ -6,7 +6,9 @@ body {
   background: rgb(204,0,153);
   background: linear-gradient(168deg, rgba(204,0,153,1) 0%, rgba(240,48,69,1) 100%);
   width: 100%;
-  height: 650px;
+  height: 750px;
+  position: fixed;
+  z-index: 999999999999999; /*this is a joke btw*/
 }
 
 .full-nav-title {
