@@ -187,8 +187,13 @@ header {
   height: 50%;
   width: 100%;
   background: linear-gradient( 0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100% ); 
-  z-index: 999;
+  z-index: 99;
   margin-top: -230px;
+  background-position: bottom;
+}
+
+.fix-me {
+  z-index: 99;
 }
 
 .header-title-2 {
