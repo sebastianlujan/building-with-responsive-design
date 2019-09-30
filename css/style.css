@@ -195,7 +195,6 @@ header {
   height: 50%;
   width: 100%;
   background: linear-gradient( 0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100% ); 
-  background-position: bottom;
   z-index: 999;
   margin-top: -230px;
 }
@@ -205,7 +204,6 @@ header {
   height: 60%;
   width: 100%;
   background: linear-gradient( 0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100% ); 
-  background-position: bottom;
   z-index: 999;
 }
 
