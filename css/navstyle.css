@@ -80,7 +80,7 @@ body {
 
 .full-nav-col-1 a {
   text-decoration: none;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   display: inherit;
   margin: 10px 0;
@@ -95,7 +95,7 @@ body {
 
 .full-nav-col-2 a {
   text-decoration: none;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   display: inherit;
   margin: 10px 0;
