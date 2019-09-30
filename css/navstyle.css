@@ -8,7 +8,6 @@ body {
   width: 100%;
   height: 750px;
   position: fixed;
-   /* this is a joke btw */
   z-index: 999999999999999;
 }
 
@@ -84,7 +83,7 @@ body {
   color: rgba(255, 255, 255, .5);
   font-size: 14px;
   display: inherit;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 .full-nav-col-2 {
@@ -99,7 +98,7 @@ body {
   color: rgba(255, 255, 255, .5);
   font-size: 14px;
   display: inherit;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 [class*="full-nav-col"] h2 {
