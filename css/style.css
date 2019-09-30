@@ -9,6 +9,10 @@ body {
   padding: 0;
 }
 
+.full-nav-toggle {
+  display: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -73,6 +77,7 @@ header {
   background-size: cover;
   z-index : 99;
 }
+
 
 .fix-cover {
   position: relative;
@@ -638,7 +643,7 @@ footer {
 
 }
 
-.logo-big { 
+.logo-big {
   position: absolute;
   top: 150px;
   left: 30px;
