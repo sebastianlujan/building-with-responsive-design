@@ -7,14 +7,15 @@ body {
 
 a {
   text-decoration: none;
-}
+  color: black;
+  }
 
 header {
   width: 98%;
   height: 460px;
   margin: 0;
   margin-top: 110px;
-  padding-top: .5%;
+  padding-top: 0.5%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -51,14 +52,6 @@ header {
 [class*="full-nav-col"] {
   width: 50%;
   height: auto;
-}
-
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
 }
 
 .full-nav-social-wrapper {
@@ -133,7 +126,6 @@ header {
   width: 65%;
   height: 96%;
   float: left;
-  background-color: lightseagreen;
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Ubisoft-Concordia-796x417.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -145,11 +137,10 @@ header {
   height: 48%;
   width: 34%;
   margin-left: 66%;
-  background-color: lightgreen;
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/09/maduro-petro-october-1st-cryptocurrency-national-oil-796x448.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: .5%;
+  margin-bottom: 0.5%;
   margin-top: 10px;
 }
 
@@ -157,7 +148,6 @@ header {
   height: 49%;
   width: 34%;
   margin-left: 66%;
-  background-color: violet;
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/OnePlus7T-796x418.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -169,24 +159,23 @@ header {
   width: 100%;
   height: 100%;
   background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png");
-  opacity: .8;
+  opacity: 0.8;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index : 99;
+  z-index: 99;
 }
-
 
 .fix-cover {
   position: relative;
   height: 40%;
-  margin-top: .5%;
+  margin-top: 0.5%;
 }
 
 .header-title-1 {
   position: relative;
   height: 50%;
   width: 100%;
-  background: linear-gradient( 0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100% ); 
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
   z-index: 99;
   margin-top: -230px;
   background-position: bottom;
@@ -200,7 +189,7 @@ header {
   position: relative;
   height: 60%;
   width: 100%;
-  background: linear-gradient( 0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100% ); 
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
   z-index: 999;
 }
 
@@ -253,7 +242,6 @@ nav {
   height: 28px;
   background-color: black;
   display: inline-block;
-
 }
 
 .nav-bar-2 {
@@ -263,13 +251,12 @@ nav {
   background-color: #fff;
 }
 
-
 .tnw-logo-container {
   float: left;
   height: 80px;
   width: 13%;
   margin: 0;
-  background: linear-gradient(168deg, rgba(204,0,153,1) 0%, rgba(240,48,69,1) 100%);
+  background: linear-gradient(168deg, rgba(204, 0, 153, 1) 0%, rgba(240, 48, 69, 1) 100%);
   display: none;
 }
 
@@ -289,8 +276,6 @@ nav {
   width: auto;
   margin-left: 16px;
 }
-
-
 
 .yellow-thingy {
   width: 100%;
@@ -325,12 +310,7 @@ main {
   margin-top: 50px;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.nav-bar-2 .nav-bar-2-item{
+.nav-bar-2 .nav-bar-2-item {
   margin-top: 15px;
   margin-left: 10px;
 }
@@ -351,7 +331,6 @@ a {
   margin: 0 0.5%;
   height: 50%;
 }
-
 
 .latest-wrapper {
   width: 100%;
@@ -382,14 +361,14 @@ section h1 {
 
 section h2 {
   margin: 0;
-  font-size: 20px;
   color: #f42;
+  font-size: 28px;
 }
 
 [class*="trends-col"] a h2 {
-    margin: 0;
-    font-size: 20px;
-    color: #f42;
+  margin: 0;
+  font-size: 20px;
+  color: #f42;
 }
 
 .latest-wrapper article div {
@@ -433,9 +412,10 @@ section h2 {
   height: 38px;
   background-color: #f42;
 }
+
 .funding-item-2 {
   height: 58px;
-  background-color: #FFEBE7;
+  background-color: #ffebe7;
 }
 
 .funding-item-2 span:first-child {
@@ -470,7 +450,7 @@ section h2 {
   padding-left: 10px;
 }
 
-.funding-item-3 a i{
+.funding-item-3 a i {
   margin-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -553,7 +533,7 @@ section h2 {
 
 #deals {
   height: auto;
-  margin-top:50px;
+  margin-top: 50px;
   margin-bottom: 75px;
 }
 
@@ -577,7 +557,7 @@ section h2 {
   top: 0;
 }
 
-[ class*='deals-col' ] {
+[class*='deals-col'] {
   width: 24%;
   margin: 0 0.5% 2.7% 0.5%;
   height: 50%;
@@ -620,9 +600,9 @@ footer {
   width: 800px;
 }
 
-.footer-down div span{
-    color: #aaa;
-    font-family: "Arial";
+.footer-down div span {
+  color: #aaa;
+  font-family: "Roboto", sans-serif;
 }
 
 .social-icons-wrapper {
@@ -661,7 +641,6 @@ footer {
   display: inline-flex;
   margin: 0 5px;
   font-size: 20px;
-
 }
 
 [class*='social-button'] a {
@@ -674,11 +653,11 @@ footer {
   background-color: black;
 }
 
-.logo-tnw{
+.logo-tnw {
   width: 300px;
 }
 
-.little-logo-tnw{
+.little-logo-tnw {
   width: 50px;
 }
 
@@ -687,7 +666,7 @@ footer {
 }
 
 .heart {
-  color: #ff2244 !important;
+  color: #f24 !important;
 }
 
 .deals-col-9 {
@@ -738,7 +717,7 @@ footer {
   border: none;
 }
 
-.menu-icon{
+.menu-icon {
   display: none;
   top: 15px;
   right: 10px;
@@ -753,12 +732,11 @@ footer {
   color: black;
 }
 
-.logo-fix{
+.logo-fix {
   position: absolute;
   top: 100px;
   left: 100px;
   width: 66px;
-
 }
 
 .logo-big {
@@ -767,11 +745,6 @@ footer {
   left: 30px;
   width: 380px;
   z-index: 9999;
-}
-
-section h2 {
-  font-family: 'Ramabhadra', sans-serif;
-  font-size: 28px;
 }
 
 [class*="latest-col"] a h3 {
@@ -792,12 +765,11 @@ section h2 {
   line-height: 1.2em;
 }
 
-
-/*first breakpoint: 1024px
+/* first breakpoint: 1024px
 second breakpoint: 760px
 third breakpoint:3..px */
-@media only screen and (max-width: 1024px) {
 
+@media only screen and (max-width: 1024px) {
   [id='latest'],
   [id='apple-event'],
   [id='funding'],
@@ -808,7 +780,7 @@ third breakpoint:3..px */
   }
 
   header {
-    margin-top:0;
+    margin-top: 0;
     padding-top: 110px;
   }
 
@@ -817,7 +789,7 @@ third breakpoint:3..px */
     height: 82px;
   }
 
-  #main-articles{
+  #main-articles {
     height: 3000px;
   }
 
@@ -840,7 +812,7 @@ third breakpoint:3..px */
     display: none;
   }
 
-  [class*="trends-col"]{
+  [class*="trends-col"] {
     width: 47%;
     margin: 0 auto;
     height: 24%;
@@ -850,12 +822,12 @@ third breakpoint:3..px */
     display: none;
   }
 
-  [class*="deals-col"]{
+  [class*="deals-col"] {
     width: 32%;
     margin: 0 auto;
   }
 
-  .deals-col-9{
+  .deals-col-9 {
     display: block;
   }
 
@@ -882,32 +854,30 @@ third breakpoint:3..px */
     height: 48%;
     width: 34%;
     margin-left: 66%;
-    background-color: lightgreen;
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/09/maduro-petro-october-1st-cryptocurrency-national-oil-796x448.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: .5%;
+    margin-bottom: 0.5%;
   }
 
   .header-container-2-2 {
     height: 49%;
     width: 34%;
     margin-left: 66%;
-    background-color: violet;
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/OnePlus7T-796x418.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: .5%;
+    margin-top: 0.5%;
   }
 
   .gradient-cover {
-    display:none;
+    display: none;
   }
 
   .fix-cover {
     position: relative;
     height: 40%;
-    margin-top: .5%;
+    margin-top: 0.5%;
   }
 
   .header-title-1 {
@@ -924,8 +894,7 @@ third breakpoint:3..px */
     line-height: 45px;
   }
 
-
-  .logo-fix{
+  .logo-fix {
     position: absolute;
     top: 35px;
     left: 16px;
@@ -936,7 +905,7 @@ third breakpoint:3..px */
     display: none;
   }
 
-  .nav-bar-2 .nav-bar-2-item{
+  .nav-bar-2 .nav-bar-2-item {
     position: absolute;
     top: 30px;
     left: 100px;
@@ -946,10 +915,9 @@ third breakpoint:3..px */
   }
 }
 
-@media only screen and (max-width: 739px ) {
-
+@media only screen and (max-width: 739px) {
   nav {
-    margin-top: 0px;
+    margin-top: 0;
     height: 82px;
   }
 
@@ -1002,7 +970,7 @@ third breakpoint:3..px */
     margin-top: 10px;
   }
 
-  .pic  {
+  .pic {
     width: 100px;
     height: 100px;
     margin: 0;
@@ -1028,7 +996,6 @@ third breakpoint:3..px */
     margin-right: 25px;
   }
 
-
   .funding-item-1 {
     height: 38px;
   }
@@ -1040,7 +1007,6 @@ third breakpoint:3..px */
   .funding-item-3 {
     height: auto;
     padding: 1;
-
   }
 
   .funding-item-4 {
@@ -1054,7 +1020,7 @@ third breakpoint:3..px */
     margin: 10px;
   }
 
-  .deals-col-9{
+  .deals-col-9 {
     display: none;
   }
 
@@ -1065,6 +1031,7 @@ third breakpoint:3..px */
   .footer-up {
     height: 88%;
   }
+
   .footer-down {
     height: 62.5%;
   }
@@ -1104,11 +1071,10 @@ third breakpoint:3..px */
     margin-top: 125px;
   }
 
-  .logo-fix{
+  .logo-fix {
     position: absolute;
     top: 16px;
     left: 25px;
     width: 66px;
   }
-
 }
