@@ -8,7 +8,7 @@ body {
 a {
   text-decoration: none;
   color: black;
-  }
+}
 
 header {
   width: 98%;
@@ -112,6 +112,12 @@ header {
   margin: 10px 0;
 }
 
+section h2 {
+  margin: 0;
+  color: #f42;
+  font-size: 28px;
+}
+
 [class*="full-nav-col"] h2 {
   font-size: 16px;
   color: white;
@@ -151,7 +157,7 @@ header {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/OnePlus7T-796x418.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: .5%;
+  margin-top: 0.5%;
 }
 
 .gradient-cover {
@@ -189,7 +195,7 @@ header {
   position: relative;
   height: 60%;
   width: 100%;
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
   z-index: 999;
 }
 
@@ -238,7 +244,7 @@ nav {
 
 .nav-bar-1 {
   width: 100%;
-  margin: 0px;
+  margin: 0;
   height: 28px;
   background-color: black;
   display: inline-block;
@@ -359,16 +365,65 @@ section h1 {
   color: #f42;
 }
 
-section h2 {
-  margin: 0;
-  color: #f42;
-  font-size: 28px;
+.trends-col-9 h2 {
+  display: none;
+}
+
+.deals-col-9 h2 {
+  display: none;
 }
 
 [class*="trends-col"] a h2 {
   margin: 0;
   font-size: 20px;
   color: #f42;
+}
+
+.footer-down div {
+  margin: 0 auto;
+  padding-top: 55px;
+  height: 50px;
+  width: 800px;
+}
+
+[class*="latest-col"] div {
+  padding-top: 8px;
+}
+
+.funding-item-3 a {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.social-links-wrapper a {
+  color: #aaa;
+  margin-right: 20px;
+}
+
+[class*='social-button'] a {
+  color: white;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.trends-list a {
+  display: inline-block;
+  margin: 6px 0 6px 6px;
+  padding-bottom: 10px;
+  border-bottom: solid 1.5px #eee;
+  color: #666;
+}
+
+[class*="latest-col"] div a {
+  font-size: 14px;
+  color: #bbb;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.2em;
 }
 
 .latest-wrapper article div {
@@ -418,6 +473,11 @@ section h2 {
   background-color: #ffebe7;
 }
 
+.footer-down div span {
+  color: #aaa;
+  font-family: "Roboto", sans-serif;
+}
+
 .funding-item-2 span:first-child {
   position: relative;
   font-family: 'Ramabhadra', sans-serif;
@@ -439,15 +499,6 @@ section h2 {
 .funding-item-3 {
   height: 60px;
   border-bottom: 1px solid #ff442250;
-}
-
-.funding-item-3 a {
-  font-size: 12px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-left: 10px;
 }
 
 .funding-item-3 a i {
@@ -486,10 +537,6 @@ section h2 {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
-}
-
-.trends-col-9 h2 {
-  display: none;
 }
 
 [class*='trends-col'] {
@@ -537,10 +584,6 @@ section h2 {
   margin-bottom: 75px;
 }
 
-.deals-col-9 h2 {
-  display: none;
-}
-
 .deals-wrapper {
   width: 100%;
   height: auto;
@@ -569,6 +612,14 @@ section h2 {
   display: float;
 }
 
+.social-links-wrapper a:hover {
+  color: white;
+}
+
+.trends-list a:hover {
+  color: black;
+}
+
 .deals-wrapper article div a:first-child {
   text-decoration-line: underline;
 }
@@ -593,18 +644,6 @@ footer {
   background-color: #000;
 }
 
-.footer-down div {
-  margin: 0 auto;
-  padding-top: 55px;
-  height: 50px;
-  width: 800px;
-}
-
-.footer-down div span {
-  color: #aaa;
-  font-family: "Roboto", sans-serif;
-}
-
 .social-icons-wrapper {
   width: 450px;
   height: 50px;
@@ -622,15 +661,6 @@ footer {
   display: flex;
 }
 
-.social-links-wrapper a {
-  color: #aaa;
-  margin-right: 20px;
-}
-
-.social-links-wrapper a:hover {
-  color: white;
-}
-
 [class*='social-button'] {
   flex: auto;
   border-radius: 50%;
@@ -641,12 +671,6 @@ footer {
   display: inline-flex;
   margin: 0 5px;
   font-size: 20px;
-}
-
-[class*='social-button'] a {
-  color: white;
-  margin: auto;
-  margin-top: 10px;
 }
 
 [class*='social-button']:hover {
@@ -679,18 +703,6 @@ footer {
   font-size: 16px;
   font-family: 'Ramabhadra', sans-serif;
   top: -55px;
-}
-
-.trends-list a {
-  display: inline-block;
-  margin: 6px 0 6px 6px;
-  padding-bottom: 10px;
-  border-bottom: solid 1.5px #eee;
-  color: #666;
-}
-
-.trends-list a:hover {
-  color: black;
 }
 
 .trends-list a::before {
@@ -751,18 +763,6 @@ footer {
   font-size: 14px;
   line-height: 1.2em;
   font-family: 'Ramabhadra', sans-serif;
-}
-
-[class*="latest-col"] div {
-  padding-top: 8px;
-}
-
-[class*="latest-col"] div a {
-  font-size: 14px;
-  color: #bbb;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  line-height: 1.2em;
 }
 
 /* first breakpoint: 1024px
