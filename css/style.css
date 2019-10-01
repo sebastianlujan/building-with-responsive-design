@@ -269,6 +269,7 @@ nav {
 .nav-bar-1 a {
   margin: auto 10px;
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 .float-left {
@@ -354,7 +355,9 @@ main {
 }
 
 section article h3 {
-  font-size: 20px;
+  font-family: 'Ramabhadra', sans-serif;
+  line-height: 20px;
+  font-size: 0.8em;
   color: black;
   margin: 0;
 }
@@ -645,20 +648,21 @@ footer {
 }
 
 .social-icons-wrapper {
-  width: 450px;
+  width: 50%;
   height: 50px;
   position: relative;
-  margin: auto;
+  margin: 0 auto;
   top: 25%;
+  text-align: center;
 }
 
 .social-links-wrapper {
-  width: 500px;
-  height: auto;
+  width: 80%;
+  height: 50px;
   position: relative;
-  margin: auto;
+  margin: 0 auto;
   top: 45%;
-  display: flex;
+  text-align: center;
 }
 
 [class*='social-button'] {
@@ -731,9 +735,11 @@ footer {
 
 .menu-icon {
   display: none;
+  position: relative;
   top: 15px;
   right: 10px;
   border: none;
+  background-color: white;
 }
 
 .menu-icon:hover {
@@ -769,7 +775,15 @@ footer {
 second breakpoint: 760px
 third breakpoint:3..px */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
+  [class*='social-button'] a {
+    margin-top: 3px;
+  }
+
+  .social-icons-wrapper {
+    width: 80%;
+  }
+
   [id='latest'],
   [id='apple-event'],
   [id='funding'],
@@ -777,6 +791,19 @@ third breakpoint:3..px */
   [id='deals'] {
     width: 95%;
     margin: 0 auto;
+  }
+
+  [class*='social-button'] {
+    width: 30px;
+    height: 30px;
+  }
+
+  .search-icon {
+    display: none;
+  }
+
+  .nav-bar-1 a {
+    font-size: 8px;
   }
 
   header {
@@ -915,7 +942,25 @@ third breakpoint:3..px */
   }
 }
 
-@media only screen and (max-width: 739px) {
+@media only screen and (max-width: 400px) {
+  [class*='social-button'] a {
+    margin-top: 5px;
+  }
+
+  .social-icons-wrapper {
+    width: 85%;
+  }
+
+  [class*='social-button'] {
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+  }
+
+  section article h3 {
+    font-size: 1em;
+  }
+
   nav {
     margin-top: 0;
     height: 82px;
@@ -1033,7 +1078,7 @@ third breakpoint:3..px */
   }
 
   .footer-down {
-    height: 62.5%;
+    height: 100%;
   }
 
   .footer-down div {
@@ -1048,7 +1093,7 @@ third breakpoint:3..px */
   }
 
   #main-articles {
-    height: 5300px;
+    height: 5700px;
   }
 
   .menu-icon {
