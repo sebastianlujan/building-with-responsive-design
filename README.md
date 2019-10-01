@@ -55,8 +55,8 @@ You can find the original project specification at: https://www.theodinproject.c
 ![screen17](img/320p-5.png)
 ![screen18](img/320p-6.png)
 
-[ LIVE DEMO: ](https://usagib.github.io/tnw ) 
+[ LIVE DEMO: ](https://usagib.github.io/tnw /) 
 
-#### Authors 
+#### Authors
 * [ @usagib ](https://github.com/Usagib)
 * [ @sebastianlujan ](https://github.com/sebastianlujan)
