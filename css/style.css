@@ -21,7 +21,9 @@ header {
   margin-right: auto;
 }
 
-.hackerman{ display: none; }
+.hackerman {
+  display: none;
+}
 
 .full-nav-toggle {
   background: rgb(204, 0, 153);
@@ -944,7 +946,6 @@ third breakpoint:3..px */
 }
 
 @media only screen and (max-width: 740px) {
-
   [class*='trends-col'] {
     width: 98%;
   }
@@ -1010,7 +1011,7 @@ third breakpoint:3..px */
   }
 
   .header-title-2 {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .overlay-subtitle {
@@ -1086,8 +1087,6 @@ third breakpoint:3..px */
   #deals {
     height: 950px;
   }
-
-
 }
 
 @media only screen and (max-width: 420px) {
@@ -1113,7 +1112,6 @@ third breakpoint:3..px */
     font-size: 1em;
   }
 
-
   .footer-up {
     height: 88%;
   }
@@ -1136,5 +1134,4 @@ third breakpoint:3..px */
   #main-articles {
     height: 5700px;
   }
-
 }
