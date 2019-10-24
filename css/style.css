@@ -21,6 +21,8 @@ header {
   margin-right: auto;
 }
 
+.hackerman{ display: none; }
+
 .full-nav-toggle {
   background: rgb(204, 0, 153);
   background: linear-gradient(168deg, rgba(204, 0, 153, 1) 0%, rgba(240, 48, 69, 1) 100%);
